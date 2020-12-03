@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form Pendaftaran</title>
+  </head>
+  <body>
+    <form action="success.html" method="GET">
+      <label>Nama : </label>
+      <input type="text" name="nama" id="nama" />
+      <br />
+      <label>Jenis Kelamin : </label>
+      <input type="radio" name="gender" id="lk" value="lk" />Laki-Laki
+      <input type="radio" name="gender" id="pr" value="pr" />Perempuan
+      <br />
+      <label>Hobi : </label>
+      <input type="checkbox" name="hobi" value="sepakbola" /> Sepakbola
+      <input type="checkbox" name="hobi" value="Gowes" /> Gowes
+      <input type="checkbox" name="hobi" value="Menyanyi" /> Menyanyi
+      <input type="checkbox" name="hobi" value="Lainnya" /> Lainnya
+      <br />
+      <label>Asal Daerah</label>
+      <select name="asal" id="">
+        <option value="Banjarmasin">Banjarmasin</option>
+        <option value="Banjarbaru">Banjarbaru</option>
+        <option value="Martapura">Martapura</option>
+      </select>
+      <br />
+      <label for="">Kata Kunci</label>
+      <input type="password" name="password" />
+      <br />
+      <label for="">Pesan dan Kesan</label>
+      <textarea name="pesankesan" id="" cols="30" rows="10">
+Isikan pesan dan kesan anda</textarea
+      >
+      <br />
+      <input type="submit" value="Kirim data" />
+    </form>
+  </body>
+</html>
